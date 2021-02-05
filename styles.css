@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+  }
+
+  body{
+      margin-top: 0%;
+      
+  }
+
+h1{
+    text-align: center;
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: #F6F6F6;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+h2{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 2.5rem;
+}
+
+h4{
+    font-family: 'Open Sans Condensed', sans-serif;
+    
+}
+
+.column {
+    float: left;
+    width: 50%;
+    height: 600px; 
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 0%;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  
